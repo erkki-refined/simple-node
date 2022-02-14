@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/erkki-refined/simple-node/issues"
   },
-  "homepage": "https://github.com/erkki-refined/simple-node#readme"
+  "homepage": "https://github.com/erkki-refined/simple-node#readme",
+  "engines": {
+    "node": "16.13.0"
+  }
 }
