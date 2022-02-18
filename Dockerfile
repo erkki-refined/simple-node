@@ -1,6 +1,8 @@
 #####   Copy source and install dependencies   #####
-FROM node:16.13.0
+FROM node:16.13.0-slim
+
+COPY . .
 
 EXPOSE 8080
 
-ENTRYPOINT ["node", "./app.js"]
+ENTRYPOINT ["npm", "run", "start"]
